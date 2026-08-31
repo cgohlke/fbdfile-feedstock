@@ -39,6 +39,7 @@ requirements:
     - pip
   run:
     - python
+    - libpython  # [win]
     - numpy
     - click
     - matplotlib-base
