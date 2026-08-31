@@ -17,6 +17,8 @@ build:
     - fbd2b64 = fbdfile.fbd2b64:main
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
+  script_env:
+    - CG_LIMITED_API=0
 
 requirements:
   build:
